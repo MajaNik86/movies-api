@@ -19,7 +19,7 @@ class MovieFactory extends Factory
         return [
             'title' => $this->faker->text(),
             'director' =>  $this->faker->text(),
-            'imageUrl' => $this->faker->text(),
+            'imageUrl' => $this->faker->url(),
             'duration' => $this->faker->numberBetween(1, 500),
             'releaseDate' => $this->faker->date(),
             'genre' => $this->faker->text(),
